@@ -13,8 +13,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 np.random.seed(123)
 
 # Reading in the data
-train = pd.read_csv("/Applications/Master Data Science and Society/Machine Learning/Assignment/data/train_data.csv")
-test = pd.read_csv("/Applications/Master Data Science and Society/Machine Learning/Assignment/data/test_data.csv")
+train = pd.read_csv("data/train_data_ML.csv")
+test = pd.read_csv("data/test_data.csv_ML")
 train.rename(columns={'ResponseValue': 'y'}, inplace=True)
 test.rename(columns={'ResponseValue': 'y'}, inplace=True)
 
