@@ -1,5 +1,5 @@
 # Machine-Learning
-Machine learning project report
+Machine Learning Project Report
 
 **Description**
 The machine learning challenge aims to predict players’ responses to the question related to wellbeing based on a dataset from the Research Edition of the video game Power Wash Simulator.
